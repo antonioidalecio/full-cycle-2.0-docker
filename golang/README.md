@@ -1,5 +1,4 @@
 # Golang e Docker
----
 
 Esta é uma aplicação simples utilizando golang e docker que apenas imprime uma mensagem no terminal! Ela utiliza o recurso de `multi-stage build` do docker e também, utiliza algumas flags de compilação para reduzir o tamanho do binário executável gerado pelo go.
 
