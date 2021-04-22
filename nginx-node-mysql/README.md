@@ -7,7 +7,7 @@ Essa aplicação, inicialmente, cria e popula o banco MySQL com uma tabela `peop
 Para executar a aplicação basta ter instalado em sua máquina o `docker` e `docker-compose`, e executar o comando abaixo:
 
 ```sh
-docker-compose up
+docker-compose up --build
 ```
 
 Após a execução, se tudo ocorrer bem, você poderá acessar a url http://localhost:8080 em seu navegador, e visualizar a mensagem **Full Cycle Rocks!**, juntamente com uma lista de nomes pré cadastradas no banco de dados.
